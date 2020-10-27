@@ -4,6 +4,72 @@ title: Big Fat Software, Inc. - Let's go big.
 author: Big Fat Software, Inc.
 description: > # this means to ignore newlines until "baseurl:"
   Big Fat Software, Inc. Let's learn to code, build something and ..Let's go big.
+  
+  
+
+google_analytics: ""
+show_downloads: true
+  
+navbar-links:
+  Home: "https://big-fat-software-inc.github.io/"
+  About Me: "aboutme"
+  All Pages: "allpages"
+  Recent Posts: "https://big-fat-software-inc.github.io/recent.html"
 # social links
 twitter_username: bigfatsoftware
-github_username:  big-fat-software-inc
+github_username: big-fat-software-inc
+
+# Select the social network links that you want to show in the footer.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
+  facebook: bigfatsoftware
+  github: big-fat-software-inc
+  twitter: bigfatsoftware
+#  reddit: yourname
+#  linkedin: daattali
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  youtube: user/deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
+#  ORCID: your ORCID ID
+#  google-scholar: your google scholar
+
+
+# If you want to show a link to an RSS in the footer, add the site description here.
+# If you don't want to show an RSS link, remove the following line.
+# rss-description: This website is a virtual proof that I'm awesome
+
+# How to display the link to your website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "big-fat-software-inc.github.io"
+
+# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+excerpt_length: 50
+
+# Whether or not to show an excerpt for every blog post in the feed page
+feed_show_excerpt: true
+
+# Whether or not to show a list of tags below each post preview in the feed page
+feed_show_tags: true
+
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
