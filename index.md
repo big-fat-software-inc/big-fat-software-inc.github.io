@@ -5,6 +5,10 @@ Recent Posts:
 - [Memory Usage in WebSites](http://big-fat-software-inc.github.io/Memory%20Usage%20in%20WebSites.html)
 - [All Posts](http://big-fat-software-inc.github.io/all%20posts.html)
 
+- http://big-fat-software-inc.github.io/posts/base64-encoding-in-java-script.html
+- http://big-fat-software-inc.github.io/posts/memory-usage-in-web-sites.html
+
+
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/big-fat-software-inc/big-fat-software-inc.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
