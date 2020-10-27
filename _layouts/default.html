@@ -1,7 +1,13 @@
----
-showheader: true
-layout: default
----
+{% if page.showheader == true %}
+	header
+	
+	{% for post in site.posts %}
+		<a href='{{ post.url }}'>{{ post.title }}</a>
+		{% if post.path contains 'react' %}
+			<a href='{{ post.url }}'>----{{ post.title }}</a>
+		{% endif %}
+	{% endfor %}  
+{% endif %}
 
 ## Welcome to Big-Fat-Software-Inc.GitHub.io
 
@@ -24,9 +30,3 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 ### All Posts
-{% for post in site.posts %}
-  <a href='{{ post.url }}'>{{ post.title }}</a>
-  {% if post.path contains 'react' %}
-      <a href='{{ post.url }}'>----{{ post.title }}</a>
-  {% endif %}
-{% endfor %}  
