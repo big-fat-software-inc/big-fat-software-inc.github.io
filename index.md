@@ -16,7 +16,8 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### All Posts
 {% for post in site.posts %}
+  <a href='{{ post.url }}'>{{ post.title }}</a>
   {% if post.path contains 'react' %}
-      <a href='{{ post.url }}'>{{ post.title }}</a>
+      <a href='{{ post.url }}'>----{{ post.title }}</a>
   {% endif %}
 {% endfor %}  
