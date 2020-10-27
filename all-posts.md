@@ -8,3 +8,8 @@
 - [Memory Usage in WebSites](http://big-fat-software-inc.github.io/Memory%20Usage%20in%20WebSites.html)
 
 
+
+- http://big-fat-software-inc.github.io/posts/base64-encoding-in-java-script.html
+- http://big-fat-software-inc.github.io/posts/memory-usage-in-web-sites.html
+
+
